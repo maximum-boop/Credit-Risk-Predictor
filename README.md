@@ -17,7 +17,20 @@
 
 
 ## Tech Stack
-
+# Dependencies
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, LabelEncoder
+from sklearn.pipeline import Pipeline
+from sklearn.linear_model import LogisticRegression
+import seaborn as sns
+import warnings
+warnings.filterwarnings('ignore')
+from sklearn.cluster import KMeans
+from sklearn.manifold import TSNE
 
 
 
